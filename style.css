@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playwrite+AR:wght@100..400&display=swap');
+body{
+    width: 100%;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(88, 88, 223);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px rgb(197, 197, 10);
+    
+}
+header>img{
+    width: 88px;
+    height: 88px;
+    border-radius: 44px;
+    margin-right: 14px;
+}
+header>p{
+    font-family: "Playwrite AR", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+.container{
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+}
+.goiabas{
+    width: 40%;
+    height: 700px;
+    background-color: rgb(230, 230, 230);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.goiaba-box{
+    width: 80%;
+    height: 188px;
+    background-color: rgb(108, 160, 57);
+    border-radius: 18px;
+    word-break: break-all;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.goiaba-box>img{
+    width: 160px;
+    height: 158px;
+    border-radius: 20px;
+}
+.goiaba-box>p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 19px;
+    color: #ffffff;
+    width: 50%;
+    word-wrap: break-word;
+}
